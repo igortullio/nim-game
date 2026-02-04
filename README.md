@@ -19,6 +19,8 @@ The computer follows the optimal strategy: always leaving a number of pieces tha
 ## Getting Started
 
 ```bash
+git clone https://github.com/igortullio/nim-game.git
+cd nim-game
 python3 jogo_nim.py
 ```
 
