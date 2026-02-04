@@ -1,43 +1,43 @@
-# Jogo do Nim
+# Nim Game
 
-Implementação em Python do clássico Jogo do Nim, onde o computador utiliza uma estratégia matemática baseada em teoria dos jogos para vencer o jogador.
+A Python implementation of the classic Nim game, where the computer uses a mathematical strategy based on game theory to beat the player.
 
-## Sobre
+## About
 
-O Jogo do Nim consiste em **n** peças dispostas em um tabuleiro, onde dois jogadores alternam turnos retirando entre 1 e **m** peças por rodada. Quem retirar as últimas peças vence.
+The Nim game consists of **n** pieces on a board, where two players alternate turns removing between 1 and **m** pieces per round. Whoever takes the last pieces wins.
 
-O computador segue a estratégia ótima: sempre deixar um número de peças que seja múltiplo de **(m+1)** para o oponente, garantindo a vitória quando matematicamente possível.
+The computer follows the optimal strategy: always leaving a number of pieces that is a multiple of **(m+1)** for the opponent, guaranteeing victory whenever mathematically possible.
 
-## Funcionalidades
+## Features
 
-- Partida individual contra o computador
-- Modo campeonato (melhor de 3 rodadas)
-- Estratégia vencedora baseada em teoria dos jogos
-- Validação de jogadas do usuário
-- Decisão automática de quem inicia com base na vantagem estratégica
+- Single match against the computer
+- Championship mode (best of 3 rounds)
+- Winning strategy based on game theory
+- User input validation
+- Automatic decision of who starts based on strategic advantage
 
-## Como executar
+## Getting Started
 
 ```bash
 python3 jogo_nim.py
 ```
 
-## Exemplo
+## Example
 
 ```
-Bem-vindo ao jogo do NIM! Escolha:
+Welcome to the NIM game! Choose:
 
-1 - para jogar uma partida isolada
-2 - para jogar um campeonato
+1 - to play a single match
+2 - to play a championship
 
-Quantas peças? 3
-Limite de peças por jogada? 1
+How many pieces? 3
+Piece limit per turn? 1
 
-Computador começa!
-O computador tirou uma peça.
-Agora restam 2 peças no tabuleiro.
+Computer starts!
+The computer took one piece.
+Now there are 2 pieces on the board.
 ```
 
-## Tecnologias
+## Tech Stack
 
 - Python 3
